@@ -1,0 +1,81 @@
+:root {
+    --primary-bg-color: #151b23;
+    --secondary-bg-color: #202730;
+    --primary-font-color: #feffff;
+    --buttons-color: #5d0521;
+    --inputs-color: #2e2d2d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-font-color);
+    font-size: 1.1em;
+}
+
+.cabecalho {
+    background-color: var(--secondary-bg-color);
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 2px 0px var(--primary-font-color);
+}
+
+.menu-itens {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu-itens li {
+    border-radius: 5%;
+    padding: 13px 15px;
+    background-color: var(--buttons-color);
+    box-shadow: #151b23;
+}
+
+.menu-itens li a {
+    color: var(--primary-font-color);
+    text-decoration: none;
+    text-shadow: 0 3px 10px rgb(0, 0, 0);
+
+}
+
+.search-bar-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+.search-bar-box  input {
+    width: 60%;
+    height: 75%;
+    border: none;
+    padding: 15px 10px;
+    color: var(--inputs-color);
+    font-size: 16px;
+}
+
+.search-bar-icon {
+    background-color: var(--buttons-color);
+    height: 74%;
+    width: 10%;
+    border-radius: 25% 0 0 25%;
+    padding: 8px 14px;
+    font-size: 29px;
+}
+
+.logo {
+    font-size: 2em;
+    color: var(--primary-font-color);
+    border: 1px #fff;
+}
