@@ -55,10 +55,12 @@ html, body {
     align-items: center;
     width: 25%;
 }
-
-.search-bar-box  input {
-    width: 60%;
+.search-bar-box  input { 
+width: 60%;
     height: 75%;
+}
+
+.inputs  input {
     border: none;
     padding: 15px 10px;
     color: var(--inputs-color);
@@ -79,3 +81,41 @@ html, body {
     color: var(--primary-font-color);
     border: 1px #fff;
 }
+
+/* Estilização beginner projects */
+
+.box-geral {
+    margin: 25px;
+    padding: 15px;
+    background: linear-gradient(45deg, var(--secondary-bg-color), transparent);
+    align-items: center;
+    min-height: 250px;
+    box-shadow: 244px 244px 244px 0.1;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.box-problema {
+    display: flex;
+}
+
+.desc-problema {
+    padding: 10px;
+    width: 50%;
+}
+
+.titulo-descricao {
+    text-align: center;
+}
+
+.buttons {
+    background-color: var(--buttons-color);
+    font-size: 16px;
+    color: var(--primary-font-color);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+
+

@@ -21,13 +21,57 @@
             </ul>
         </nav>
 
-        <div class="search-bar-box">
+        <div class="search-bar-box inputs">
             <span class="search-bar-icon fa-brands fa-searchengin"></span>
             <input type="text" placeholder="Pesquisar">
         </div>
     </header>
     <main class="main-content">
         
+        <div class="box-geral">
+            <h2 class="titulo-descricao">Desafio Bin2Dec</h2>
+            <div class="difficulty-level">
+                <span class="difficulty-tag">1 - Beginner</span>
+                <div class="difficulty-circles">
+                    <span class="circle easy"></span>
+                    <span class="circle medium"></span>
+                    <span class="circle hard"></span>
+                </div>
+            </div>
+            <div class="box-problema">
+                <section class="desc-problema">
+                    <p><strong>Binary</strong> is the number system all digital computers are based on. Therefore, it's important for developers to understand binary, or base 2, mathematics. The purpose of Bin2Dec is to provide practice and understanding of how binary calculations work.</p>
+                    <p>Bin2Dec allows the user to enter strings of up to 8 binary digits (0's and 1's), in any sequence, and then displays its decimal equivalent.</p>
+                    <p>This challenge requires that the developer implementing it follow these constraints:</p>
+                    <ul>
+                        <li> Arrays may not be used to contain the binary digits entered by the user.</li>
+                        <li>Determining the decimal equivalent of a particular binary digit in the sequence must be calculated using a single mathematical function, for example the natural logarithm. It's up to you to figure out which function to use.</li>
+                    </ul>
+        
+                    <p><strong>User Stories</strong></p>
+                    <div class="checklist">
+                        <label><input type="checkbox" id="userCanEnterDigits"> User can enter up to 8 binary digits in one input field.</label>
+                        <label><input type="checkbox" id="notifyInvalidInput"> User must be notified if anything other than a 0 or 1 was entered.</label>
+                        <label><input type="checkbox" id="viewDecimalResult"> User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered.</label>
+                    </div>
+        
+                    <p><strong>Bonus features:</strong></p>
+                    <div class="checklist">
+                        <label><input type="checkbox" id="variableBinaryDigits"> User can enter a variable number of binary digits.</label>
+                    </div>
+                </section>
+        
+                <section class="inputs bloco-problema">
+                    <h2 class="titulo-box">Binário para Decimal</h2>
+                    <label for="binario-input">Digite um número binário (máximo 8 dígitos):</label>
+                    <input type="text"  id="binario-input" maxlength="8" placeholder="ex: 1110">
+                    <button class="buttons convertButton">Converter</button>
+                    <p id="errorMessage" style="display: none;">Por favor, digite apenas 0's e 1's!</p>
+                    <p>Resultado Decimal: <span id="decimalResult"></span></p>
+                </section>
+            </div>
+        </div>
     </main>
+    
 </body>
 </html>
