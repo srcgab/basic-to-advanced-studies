@@ -30,7 +30,7 @@ The initial phase of this repository focuses on learning the fundamentals of web
    Work towards creating fully functional applications, combining front-end, back-end, and database technologies.  
 
 5. **Deployment**:  
-   Deploy projects to platforms like **GitHub Pages**, **Heroku**, or **Vercel**, making them accessible online.  
+   
 
 ## Project Structure  
 
